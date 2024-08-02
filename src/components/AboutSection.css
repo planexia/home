@@ -1,0 +1,119 @@
+#about {
+    padding: 60px 0;
+  }
+  
+  .section-header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .section-header h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .section-header p {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .about-container .content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .about-container .content p {
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .about-container .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-container .content ul li {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    transition: 0.3s;
+    border-left: 3px solid #ff5821;
+  }
+  
+  .about-container .content ul li:hover {
+    background: #ff5821;
+    color: #fff;
+  }
+  
+
+  .about-container .background {
+    position: relative;
+    background: url("../assets/img/about-img.svg") center top no-repeat; /* Ruta corregida */
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  
+  .icon-box {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .icon-box .icon {
+    float: left;
+    width: 64px;
+    height: 64px;
+    background: #e96b56;
+    color: #fff;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 32px;
+  }
+  
+  .icon-box .icon i {
+    font-size: 32px;
+    line-height: 1;
+  }
+  
+  .icon-box .title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  
+  .icon-box .title a {
+    color: #343a40;
+  }
+  
+  .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+    .about-container .background {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  
